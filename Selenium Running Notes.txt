@@ -1,0 +1,145 @@
+**************************************
+Selenium Season - 1
+**************************************
+
+https://www.selenium.dev/downloads/ 
+
+
+4.23.0 (July 19, 2024) --> latest version
+
+
+Previous Releases
+Here you can find a more complete list of Selenium releases.
+
+how to add jar to a java project in eclipse ?
+
+
+
+
+Exception in thread "main" 
+java.lang.IllegalStateException: 
+The path to the driver executable must be set by the 
+webdriver.chrome.driver system property; for more information,
+ see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+
+IllegalStateException
+
+Reason : driver executable is not found 
+
+Solution : 
+download the  driver executable and set the system property
+
+webdriver.chrome.driver ==> chromedriver.exe path 
+
+3.141.59
+
+public class ChromeLaunch1 {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "D:\\010LiveTech\\jars\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		
+		new ChromeDriver();
+
+	}
+
+}
+
+----------------------------------------------
+selenium-server-4.3.0.jar
+
+https://github.com/bonigarcia/webdrivermanager
+
+public class ChromeLaunch2 {
+
+	public static void main(String[] args) {
+		
+		WebDriverManager.chromedriver().setup();
+		new ChromeDriver();
+
+	}
+
+}
+
+-----------------------------------------------
+
+selenium-server-4.13.0.jar
+
+public class ChromeLaunch3 {
+
+	public static void main(String[] args) {
+		
+		new ChromeDriver();
+
+	}
+
+}
+
+??????????????????????????????????????????????????????
+Assignement -1 
+
+Use above 3 versions and launch 
+Firfox and Edge browsers
+
+and send email to below id 
+
+riyazsirnotes@gmail.com
+
+hint :
+
+for firefox --> geckodriver.exe 
+for edge --> msedgedriver.exe 
+
+?????????????????????????????????????????????????????????
+
+Exception in thread "main" 
+java.lang.IllegalStateException: 
+The path to the driver executable must be set by the 
+webdriver.gecko.driver system property; 
+for more information, see https://github.com/mozilla/geckodriver. 
+The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+
+
+Exception in thread "main" 
+java.lang.IllegalStateException: 
+The path to the driver executable must be set by the 
+webdriver.edge.driver system property; 
+for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687
+
+--------------------------------------------------
+Methods in WebDriver(13)
+--------------------------------------------------
+
+get(String):void   ==> this will launch the app whose URL is given in form of String 
+
+here String is the URL of application
+
+e.g https://adactinhotelapp.com/
+
+---------------------------------------------------
+close():void ==> this will close the only one tab or window on
+which the webdriver focus 
+
+close will not kill the driver executable 
+----------------------------------------------------
+quit():void ==> this will close all the tabs or windows
+opened during that webdriver session
+
+quit will kill the driver execute 
+--------------------------------------------------
+getTitle():String
+
+--------------------------------------------------------
+
+findElement(By)
+findElements(By)
+
+getCurrentUrl()
+getPageSource()
+
+getWindowHandle()
+getWindowHandles()
+manage()
+navigate()
+
+switchTo()
