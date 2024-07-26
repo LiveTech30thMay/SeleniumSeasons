@@ -131,15 +131,104 @@ getTitle():String
 
 --------------------------------------------------------
 
-findElement(By)
+getCurrentUrl():String ==> this will return the url present in address bar in form of address
+
+----------------------------------------------------------
+
+getPageSource() : String 
+
+---------------------------------------------------------------------
+
+getWindowHandle():String 
+
+--------------------------------------------------------------------------
+
+getWindowHandles():Set<String> 
+
+
+-------------------------------------------------------------------------------
+
+navigate():Navigation
+
+back()
+forward()
+refresh()
+to(String)
+to(URL)
+
+----------------------------------------------------------------------------------
+
+manage(): Options 
+
+
+Options : Window 
+
+manage is used to manage following things 
+
+1) window size (maximize , minimize ,fullscreen etc..)
+2) synchronization using implicit wait 
+3) cookies 
+
+driver.manage().window().maximize();
+----------------------------------------------------------------
+switchTo():TargetLocator
+
+used to switch the webdriver focus to window/tab , alerts , frames etc ..
+
+--------------------------------------------------------------------------
+
+findElement(By):WebElement
+
+
 findElements(By)
 
-getCurrentUrl()
-getPageSource()
 
-getWindowHandle()
-getWindowHandles()
-manage()
-navigate()
+----------------------------------------------------
+Locator Strategy or By class methods 
 
-switchTo()
+className(String)
+cssSelector(String)
+id(String)
+linkText(String)
+name(String)
+partialLinkText(String)
+tagName(String)
+xpath(String)
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="euq4r">
+
+<a href="Register.php">New User Register Here</a>
+
+HTML terminology
+
+<tagname attribute1="value of attribute1" attribute2="value of attribute2"         >
+<tagname attribute1="value of attribute1" attribute2="value of attribute2"         >text on element</tagName>
+------------------------------------------
+locators based on attributes :
+id(String)
+name(String)
+className(String)
+
+------------------------------
+locators based on text on link :
+
+linkText(String)
+partialLinkText(String)
+
+--------------------------------------
+
+locators based on tagName or attributes or text 
+
+xpath(String)
+cssSelector(String)
+
+-----------------------------------------------------
+tagName(String)
+
+used for focusing multiple elements 
+
+---------------------------------------------------------
+
+
+
+
