@@ -229,6 +229,88 @@ used for focusing multiple elements
 
 ---------------------------------------------------------
 
+*****************************************************
+Methods in WebElement (16+5)
+*****************************************************
+clear()
+click()
+findElement(By)
+findElements(By)
+getAttribute(String)
+getCssValue(String)
+getLocation()
+getRect()
+getSize()
+getTagName()
+getText()
+isDisplayed()
+isEnabled()
+isSelected()
+sendKeys(CharSequence...)
+submit()
 
 
+--------------------------
+getAccessibleName()
+getAriaRole()
+getDomAttribute(String)
+getDomProperty(String)
+getShadowRoot()
+
+---------------------------
+
+=====================================
+sendKeys(CharSequence...):void 
+
+this is used to type text on webelement 
+
+================================================
+
+click():void 
+
+this is used to click any webelement like (button , link ,img etc ..)
+
+========================================================
+
+clear():void 
+
+this is used to clear text on textbox and textarea or place holder 
+
+=========================================================================
+
+getText():String 
+
+this is used to get text present on webelement
+
+==============================================================================
+
+getAttribute(String):String
+
+case 1 ;
+
+case 2: 
+
+case 3: 
+
+========================================================================
+
+getCssValue(String): String
+
+
+=========================================================================
+getLocation() : 
+
+getSize(): 
+
+getRect():
+
+===========================================================================
+
+isDisplayed():boolean
+isEnabled():boolean
+isSelected():boolean 
+
+=============================================================================
+
+submit():void 
 
