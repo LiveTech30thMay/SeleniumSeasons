@@ -399,4 +399,30 @@ riyazsirnotes@gmail.com
 
 
 
+************************************************
+Miscellenous Actions
+*************************************************
+org.openqa.selenium.interactions
+
+Action(I)
+Actions (C)  
+
+---------------------------------
+Mouse Hover
+---------------------------------
+
+NoSuchElementException:
+
+Reason 1: Locator stratry may be wrong 
+
+Solution 1: correct the locator
+
+Reason 2: if WebElement is present inside a frame 
+
+Solution 2: switch to frame 
+
+
+
+
+
 
