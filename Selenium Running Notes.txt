@@ -411,6 +411,10 @@ Actions (C)
 Mouse Hover
 ---------------------------------
 
+moveToElement(WebElement)
+moveToElement(WebElement, int, int)
+
+
 NoSuchElementException:
 
 Reason 1: Locator stratry may be wrong 
@@ -421,6 +425,124 @@ Reason 2: if WebElement is present inside a frame
 
 Solution 2: switch to frame 
 
+
+
+*****************************************************************
+Drag and Drop 
+
+dragAndDrop(WebElement, WebElement)
+dragAndDropBy(WebElement, int, int)
+
+??????????????????????????????????????????????????????????????????????
+
+Assignment - 3 
+
+https://emicalculator.net/
+
+Drag "Home Loan Amount" to 75 lakhs 
+
+Drag "Interest Rate" to 12.5 
+
+Drag "Loan Tenure" to 15 years 
+
+Send the script or screenshot to below email id 
+
+riyazsirnotes@gmail.com 
+
+hint : 
+
+use dragAndDropBy(WebElement, int, int) 
+
+??????????????????????????????????????????????????????????????????????????
+
+****************************************
+Rigth Click
+
+contextClick()
+contextClick(WebElement)
+
+
+*****************************************
+Double Click
+
+doubleClick()
+doubleClick(WebElement)
+
+
+?????????????????????????????????????????????????????????????
+Assignment - 4
+
+in https://selenium-prd.firebaseapp.com/
+
+admin123@gmail.com
+admin123
+
+mousehover on "Intractions" 
+click on "Double Click"
+
+Double Click on "Double Click" until the "count is 5"
+
+?????????????????????????????????????????????????????????????
+
+
+******************************************
+Xpath writing techniques 
+
+Xpath stands for XML path 
+
+it's query to identify XML/HTML nodes 
+
+										Xpath
+										
+										
+				absolute xpath								relative xpath
+
+
+
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input
+
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input	
+
+
+relative xpath writing techniques :
+
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="euq4r">
+
+<a href="Register.php">New User Register Here</a>
+
+HTML terminology
+
+<tagname attribute1="value of attribute1" attribute2="value of attribute2"         >
+<tagname attribute1="value of attribute1" attribute2="value of attribute2"         >text on element</tagName>
+-------
+
+
+1) xpath using tagname and attribute/s 
+
+//tagname[@attribute='value of attribute']
+
+//input[@id='username']
+
+
+2) xpath using tagname and text on element 
+
+//tagname[text()='text on element']
+//a[text()='New User Register Here']
+
+3)xpath using tagname and text (contains)
+
+//tagname[contains(text(),'sub text of the text present on element')]
+
+//button[contains(text(),'Intractions')]
+
+4) xpath using tagname and sub value of attribute(contains)
+
+//tagname[contains(@attribute.'subset of value of attribute')]
+
+
+			
+										
 
 
 
