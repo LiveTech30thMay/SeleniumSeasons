@@ -541,6 +541,21 @@ HTML terminology
 //tagname[contains(@attribute.'subset of value of attribute')]
 
 
+*********************************************************
+Selenium Season -2
+*********************************************************
+
+TestNG : 
+
+here NG stands for Next Generation 
+
+TestNG is a unit testing framework got inspired from Junit and Nunit 
+
+annotations in TestNG :
+
+@Test 
+
+
 			
 										
 
