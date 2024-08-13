@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-09T10:10:04 IST" name="Default suite" finished-at="2024-08-09T10:11:13 IST" duration-ms="68760">
+  <suite started-at="2024-08-13T09:39:24 IST" name="Default suite" finished-at="2024-08-13T09:40:04 IST" duration-ms="39388">
     <groups>
     </groups>
-    <test started-at="2024-08-09T10:10:04 IST" name="Default test" finished-at="2024-08-09T10:11:13 IST" duration-ms="68760">
-      <class name="aug9th.LinksTesting4">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:aug9th.LinksTesting4@6c130c45]" started-at="2024-08-09T10:10:04 IST" name="setUp" finished-at="2024-08-09T10:10:08 IST" duration-ms="4209" status="PASS">
+    <test started-at="2024-08-13T09:39:24 IST" name="Default test" finished-at="2024-08-13T09:40:04 IST" duration-ms="39388">
+      <class name="aug13th.FrameHanlding2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aug13th.FrameHanlding2@5f9b2141]" started-at="2024-08-13T09:39:24 IST" name="setUp" finished-at="2024-08-13T09:39:56 IST" duration-ms="31169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="noOflinksTest()[pri:0, instance:aug9th.LinksTesting4@6c130c45]" started-at="2024-08-09T10:10:08 IST" name="noOflinksTest" finished-at="2024-08-09T10:11:12 IST" duration-ms="63910" status="PASS">
+        <test-method signature="frameHandlingTest()[pri:0, instance:aug13th.FrameHanlding2@5f9b2141]" started-at="2024-08-13T09:39:56 IST" name="frameHandlingTest" finished-at="2024-08-13T09:39:59 IST" duration-ms="3842" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- noOflinksTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:aug9th.LinksTesting4@6c130c45]" started-at="2024-08-09T10:11:12 IST" name="teardown" finished-at="2024-08-09T10:11:13 IST" duration-ms="606" status="PASS">
+        </test-method> <!-- frameHandlingTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:aug13th.FrameHanlding2@5f9b2141]" started-at="2024-08-13T09:39:59 IST" name="teardown" finished-at="2024-08-13T09:40:04 IST" duration-ms="4336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- aug9th.LinksTesting4 -->
+      </class> <!-- aug13th.FrameHanlding2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
