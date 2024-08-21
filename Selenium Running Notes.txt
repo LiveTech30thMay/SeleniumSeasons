@@ -695,3 +695,32 @@ Password :	12345678@
 ????????????????????????????????????????????????????????
 
 
+
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted:
+ Element is not clickable at point (759, 7386)
+  
+  
+  Scroll the document 100px vertically:
+  
+  window.scrollBy(0, 100);
+  
+  
+  JavascriptExecutor (I) 
+  
+  executeScript(String, Object...)
+  
+  
+  window.scrollBy(0,document.body.scrollHeight);
+  
+  executeScript("window.scrollBy(0, 100
+  
+  
+  to scroll to particular webelement 
+  
+  
+	const element = document.getElementById("content");
+	element.scrollIntoView();
+	
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+
+	Js.executeScript(“arguments[0].setAttribute(‘style’, ’background: yellow; border: 2px solid red;’);”,ele);
