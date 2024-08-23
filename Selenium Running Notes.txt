@@ -696,6 +696,7 @@ Password :	12345678@
 
 
 
+
 org.openqa.selenium.ElementClickInterceptedException: element click intercepted:
  Element is not clickable at point (759, 7386)
   
@@ -724,3 +725,106 @@ org.openqa.selenium.ElementClickInterceptedException: element click intercepted:
 	JavascriptExecutor js = (JavascriptExecutor)driver;
 
 	Js.executeScript(“arguments[0].setAttribute(‘style’, ’background: yellow; border: 2px solid red;’);”,ele);
+	
+	
+
+ -------------------------------------
+ Screenshot
+ 
+ 
+ TakesScreenshot(I) 
+ 
+ getScreenshotAs(OutputType<X>):X
+ 
+ OutputType.class
+ 
+	BASE64 : OutputType<String>
+	BYTES : OutputType<byte[]>
+	FILE : OutputType<File>
+	
+FileUtils (Apache Commons IO 2.16.1 API)
+
+commons-io-2.16.1-bin.zip
+
+https://jenkov.com/tutorials/java-internationalization/simpledateformat.html
+
+
+******************************************
+Waits Concepts
+or
+Synchronization 
+*******************************************
+
+org.openqa.selenium.NoSuchElementException: 
+
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='firstname']"}
+
+Hard Wait using Thread.sleep(); ==> not prefered in real time 
+
+Implicit Wait :
+
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+
+this is implied for all driver.findElement statement 
+
+Explicit Wait :
+
+WebDriverWait 
+
+Wait(I) :
+
+until(Function<? super F, T>)
+
+WebDriverWait(C) :
+
+	WebDriverWait(WebDriver, Duration)
+	WebDriverWait(WebDriver, Duration, Duration)
+	WebDriverWait(WebDriver, Duration, Duration, Clock, Sleeper)
+	
+ExpectedConditions
+
+	invisibilityOf(WebElement)
+	invisibilityOfAllElements(List<WebElement>)
+	invisibilityOfAllElements(WebElement...)
+	invisibilityOfElementLocated(By)
+	invisibilityOfElementWithText(By, String)
+		
+		
+-------------------------------------------------------------
+
+FluentWait 
+
+FluentWait<WebDriver> myWait=new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(30))
+		.pollingEvery(Duration.ofMillis(200))
+		.ignoring(TimeoutException.class);
+		
+		
+		
+
+------------------------------------------------------
+
+WebTable 
+
+<table 
+
+<th 
+
+<tbody 
+
+	<tr 
+		<td
+		
+		
+//table/tbody/tr[1]/td[1]	 //table/tbody/tr[1]/td[2]	.....//table/tbody/tr[1]/td[8]
+//table/tbody/tr[2]/td[1]
+:
+:
+//table/tbody/tr[36]/td[1]
+		
+	
+String part1="//table/tbody/tr[";
+
+String part2="]/td[";
+
+String part3="]";

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="aug22nd.WaitsDemo2">
+      <class name="aug23rd.CheckBox">
         <methods>
+          <include name="radioButtonTest4"/>
           <include name="teardown"/>
-          <include name="waitTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- aug22nd.WaitsDemo2 -->
+      </class> <!-- aug23rd.CheckBox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
