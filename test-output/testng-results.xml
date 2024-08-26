@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-23T10:30:31 IST" name="Default suite" finished-at="2024-08-23T10:31:15 IST" duration-ms="43628">
+  <suite started-at="2024-08-26T10:27:02 IST" name="Default suite" finished-at="2024-08-26T10:28:28 IST" duration-ms="86168">
     <groups>
     </groups>
-    <test started-at="2024-08-23T10:30:31 IST" name="Default test" finished-at="2024-08-23T10:31:15 IST" duration-ms="43628">
-      <class name="aug23rd.WebTable3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:aug23rd.WebTable3@48974e45]" started-at="2024-08-23T10:30:31 IST" name="setUp" finished-at="2024-08-23T10:31:01 IST" duration-ms="30055" status="PASS">
+    <test started-at="2024-08-26T10:27:02 IST" name="Default test" finished-at="2024-08-26T10:28:28 IST" duration-ms="86168">
+      <class name="aug26th.Fileupload">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aug26th.Fileupload@48974e45]" started-at="2024-08-26T10:27:02 IST" name="setUp" finished-at="2024-08-26T10:28:18 IST" duration-ms="75853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="webTableTest()[pri:0, instance:aug23rd.WebTable3@48974e45]" started-at="2024-08-23T10:31:01 IST" name="webTableTest" finished-at="2024-08-23T10:31:09 IST" duration-ms="8087" status="PASS">
+        <test-method signature="fileUploadTest()[pri:0, instance:aug26th.Fileupload@48974e45]" started-at="2024-08-26T10:28:18 IST" name="fileUploadTest" finished-at="2024-08-26T10:28:23 IST" duration-ms="4576" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webTableTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:aug23rd.WebTable3@48974e45]" started-at="2024-08-23T10:31:09 IST" name="teardown" finished-at="2024-08-23T10:31:15 IST" duration-ms="5436" status="PASS">
+        </test-method> <!-- fileUploadTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:aug26th.Fileupload@48974e45]" started-at="2024-08-26T10:28:23 IST" name="teardown" finished-at="2024-08-26T10:28:28 IST" duration-ms="5688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- aug23rd.WebTable3 -->
+      </class> <!-- aug26th.Fileupload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

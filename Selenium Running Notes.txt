@@ -828,3 +828,52 @@ String part1="//table/tbody/tr[";
 String part2="]/td[";
 
 String part3="]";
+
+
+--------------------------------------------------------------------
+
+Xpath Axes :
+
+SelectorsHub:
+selectorshub plugin for chrome 
+
+SelectorsHub - XPath Helper - Chrome Web Store
+
+Chrome Web Store
+
+//input[@id='username']
+
+
+Predicates : using index  (index starts from 1) 
+
+for e.g in ccn.com
+
+(//a[contains(text(),'Before the Bell')])[2]
+(//a[normalize-space()='Before the Bell'])[2]
+
+
+
+//div[text()='Make Money with Us']/following-sibling::ul/child::li/child::a[text()='Sell on Amazon']
+
+//div[text()='Make Money with Us']/parent::div/descendant::a[text()='Sell on Amazon']
+
+//a[normalize-space()='Sell on Amazon']
+
+
+
+(//td[text()='18 months to < 21 months'])[2]/following-sibling::td[1]
+
+(//td[text()='18 months to < 21 months'])[2]/following-sibling::td[2]
+
+
+//span[text()='Up to 50% off | Best offers on furniture from local stores nearby']/ancestor::div[@class='a-section as-title-block']/following-sibling::div/descendant::img[1]
+
+//img[@alt='FURNEASER Lumia Engineered Wood Study Table, Workstation, Computer, Laptop, WFH Office Desk, Gaming Table with Storage...']
+CSS selector:
+
+
+
+Shadow DOM :
+
+
+
